@@ -1,0 +1,82 @@
+.logo {
+  width: 350px;
+}
+
+body > h1 {
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.searchbox {
+  position: absolute;
+  right: 0;
+  margin-top: -32px;
+  margin-right: 10px;
+}
+
+.searchbox select {
+  height: 25px;
+}
+
+.searchbox input[type="text"] {
+  height: 25px;
+}
+
+.searchbox input[type="submit"] {
+  height: 25px;
+}
+
+.booklist {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.listtitle {
+  background-color: rgb(121, 136, 223);
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  height: 50px;
+}
+
+.list {
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+}
+
+.booklist a {
+  text-decoration: none; /* 하이퍼링크의 밑줄 제거 */
+  color: inherit; /* 부모 요소의 색상 상속 */
+}
+
+.booklist a:hover {
+  text-decoration: none; /* 하이퍼링크에 마우스를 올렸을 때 밑줄 제거 */
+  color: inherit; /* 부모 요소의 색상 상속 */
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.bookmake {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(121, 136, 223);
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  height: 30px;
+  width: 90px;
+  text-align: center;
+  margin-left: 12.5%;
+}
+
+.bookmake:hover {
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.logo {
+  margin-top: 100px;
+  width: 600px;
+  margin-bottom: 30px;
+}
+
+.idbox,
+.pwbox,
+.pwbox2,
+.namebox,
+.phonebox {
+  margin-bottom: 15px;
+  width: 400px;
+  height: 40px;
+  border: 2px solid rgba(128, 128, 128, 0.305);
+}
+
+.idbox::placeholder,
+.pwbox::placeholder,
+.pwbox2::placeholder,
+.namebox::placeholder,
+.phonebox::placeholder {
+  color: #999999ab;
+}
+
+.signupbutton {
+  margin-top: 40px;
+  width: 407px;
+  height: 50px;
+  border: none;
+  background-color: rgb(121, 136, 223);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
